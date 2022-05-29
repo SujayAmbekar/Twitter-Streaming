@@ -1,5 +1,5 @@
 # Twitter-Streaming
-Twitter stream analysis using spark, kafka and sql
+Twitter stream analysis using Apache spark, Apache kafka and Postgresql
 
 # Problem Statement
 1. Collect twitter feed for 30 minutes with any 5 hash tags.
