@@ -32,18 +32,14 @@ def scrape(window_id):
 
 if __name__ == '__main__':
 
-    consumer_key = 'g8qhoRayrGJoKGrisuN6xNCHL'
+    consumer_key = 'ENTER_CONSUMER_KEY'
 
-    consumer_secret = 'LWsqp9jBPy8rBc20WShYeLCAsz21DKIDb29tx7MTEN8MkeCsDu'
+    consumer_secret = 'ENTER_CONSUMER_SECRET'
 
-    access_key = '1106363006-jsnIwQYqjwaaoCitn2ziK2Uv1ZRVGTQXngD6KCd'
+    access_key = 'ENTER_ACCESS_KEY'
 
-    access_secret = '7SXlXBPHzf9tqXh5wXoYhNR0XfHWvY4k4oHjK0WpZOrl2'
-    # access_key = '1289176512273367045-cKg9rIBMBY7p24OnovDOsLHVLKq5qH'
-    # access_secret = 'TnLQJRtpxsl1DOAXsgDZOVEEWKuYM1rbxVUSrCBWii1tO'
-    # consumer_key = 'kfav8r32TkZ5jp5ZlEiAzkuJn'
-    # consumer_secret = 'JitxgZb35p7rA5kE2jM7w8BspR2PIVOKRwiPiaLlNAqzQDGOVj'
-
+    access_secret = 'ENTER_ACCESS_SECRET'
+   
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)

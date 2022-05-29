@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from json import loads
 import ast
 import psycopg2
-conn = psycopg2.connect("dbname=mvc_db user=swaroop password=swar1234")
+conn = psycopg2.connect("dbname=dbt user=postgres password=sujay123")
 cur = conn.cursor()
 
 
